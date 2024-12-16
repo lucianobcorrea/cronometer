@@ -48,7 +48,7 @@ public class Stopwatch {
 		textField.setBackground(Color.LIGHT_GRAY);
 		textField.setHorizontalAlignment(SwingConstants.CENTER);
 		textField.setFont(new Font("Arial", Font.PLAIN, 90));
-		textField.setText("00:00:00");
+		textField.setText("00:00,00");
 		textField.setEditable(false);
 		textField.setBounds(10, 11, 364, 83);
 		textField.setColumns(10);
